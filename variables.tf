@@ -7,6 +7,7 @@ variable "vnet_name" {
 variable "resource_group_name" {
   description = "Name of the resource group to be imported."
   type        = string
+  default     = "none_supplied"
 }
 
 variable "address_space" {
